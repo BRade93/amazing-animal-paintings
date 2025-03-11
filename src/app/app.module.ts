@@ -14,6 +14,7 @@ import {
   withFetch,
 } from '@angular/common/http';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { CartModule } from './cart/cart.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -24,6 +25,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     HttpClientModule,
     MatToolbarModule,
     MatButtonModule,
+    CartModule,
   ],
   providers: [
     provideClientHydration(),
