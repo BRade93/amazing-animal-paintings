@@ -2,5 +2,5 @@ export class Product {
   id: number = 0;
   name: string = '';
   price: number = 0;
-  image: string = '';
+  image_url: string = '';
 }
